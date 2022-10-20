@@ -1,0 +1,18 @@
+2022-10-14 00:31:13.660780: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/lib/jvm/java-9-openjdk-amd64/lib/amd64/server:$LD_LIBRARY_PATH
+2022-10-14 00:31:13.660850: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Token indices sequence length is longer than the specified maximum sequence length for this model (892 > 512). Running this sequence through the model will result in indexing errors
+/home/lily/lyf6/miniconda3/lib/python3.9/site-packages/sklearn/utils/validation.py:727: FutureWarning: np.matrix usage is deprecated in 1.0 and will raise a TypeError in 1.2. Please convert to a numpy array with np.asarray. For more information see: https://numpy.org/doc/stable/reference/generated/numpy.matrix.html
+  warnings.warn(
+classification 2 ETHNICITY
+Acc 1: 0.4784263959390863, Acc 0: 0.982368165642187, Acc Avg: 0.7303972807906367
+0.8697577870582189
+
+
+2022-10-14 00:57:49.043384: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/lib/jvm/java-9-openjdk-amd64/lib/amd64/server:$LD_LIBRARY_PATH
+2022-10-14 00:57:49.043474: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Token indices sequence length is longer than the specified maximum sequence length for this model (1247 > 512). Running this sequence through the model will result in indexing errors
+regression 1 apsiii
+MSE 1: 195.4074084762627, Acc 0: 183.37018032546857, Acc Avg: 189.38879440086563
+Avg. Deviation 1: -0.13986719170572545 ± 13.978120247191574
+Avg. Deviation 0: 0.2433710481802727 ± 13.53923745483387
+Test MSE: 184.88649113126448

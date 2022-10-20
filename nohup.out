@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/data/lily/lyf6/Health-Project/gan_train.py", line 187, in <module>
+    train()
+  File "/data/lily/lyf6/Health-Project/gan_train.py", line 146, in train
+    g_loss_test, d_loss_test = eval_step(batch, race)
+  File "/data/lily/lyf6/Health-Project/gan_train.py", line 116, in eval_step
+    gen_loss = criterion(dis_outputs, temp)
+  File "/home/lily/lyf6/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/lily/lyf6/miniconda3/lib/python3.9/site-packages/torch/nn/modules/loss.py", line 613, in forward
+    return F.binary_cross_entropy(input, target, weight=self.weight, reduction=self.reduction)
+  File "/home/lily/lyf6/miniconda3/lib/python3.9/site-packages/torch/nn/functional.py", line 3074, in binary_cross_entropy
+    raise ValueError(
+ValueError: Using a target size (torch.Size([8, 2])) that is different to the input size (torch.Size([5, 2])) is deprecated. Please ensure they have the same size.
