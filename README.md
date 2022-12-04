@@ -14,3 +14,7 @@
 * `gan_evaluate.ipynb`: Notebook to train a classifier to predict treatment outcome
 
 ### Reweighting using Inverse Propensity Weights
+* `IPW.ipynb`: Jupyter notebook containing the entire process of processing the data, training a BERT classifier that incorporates different weights depending on the patient's propensity, and evaluates its performance.
+
+### Removing race as a predictor 
+* `BERT_no_race_distinction.ipynb`: Jupyter notebook containing the entire process of processing the data, training a BERT classifier that treats all patients as pertaining to the same race, and evaluates its performance.
