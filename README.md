@@ -1,5 +1,9 @@
 # Health-Project
 
+<b>TLDR:</b> We attempt to debias clinical summaries of race, and use these summaries as inputs for treatment prediction. Three methods are used: generative adversarial networks, inverse propensity weighting, and removing race as a predictor. Overall, the models achieve fair classification (i.e. demographic parity conditioned on severity score) but have low predictive power; it should be noted that baselines perform similarly poorly, and hence must be improved.
+
+Check out the writeup <a href="https://drive.google.com/file/d/1zgGBQSmc1mVJHEZQMTeuETzEEOHrwuQW/view?usp=sharing">here</a>!
+
 ### Exploratory Data Analysis
 * `eda.ipynb`: EDA to predict race from clinical notes using logistic regression & random forest, and to predict APSIII score from clinical notes using linear regression and random forest
 * `eda_bert_train.py`: Script to train BERT classifier/regressor to predict race/APSIII score
